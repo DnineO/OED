@@ -71,7 +71,7 @@ plt.ylabel('h')
 plt.title('Заголовок')
 plt.grid(True)
 plt.bar(XArray, NArray, h - 0.001)
-plt.plot(XArray, NArray, color = "black")
+plt.plot(XArray, NArray, color="black")
 plt.show()
 
 # Построим кумуляту
@@ -80,4 +80,14 @@ wArray = []
 
 for i in range(len(XiArray)):
     wArray.append(NArray[i]/n)
-    WArray.append()
+    if i == 0:
+        WArray.append(wArray[i])
+    else:
+        WArray.append(WArray[i-1]+wArray[i])
+
+plt.title('Кумулятивная кривая')
+plt.xlabel('Варианты')
+plt.ylabel('Накопительные частоты')
+plt.grid()
+plt.plot(XArray, WArray, color="red")
+plt.show()
