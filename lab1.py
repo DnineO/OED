@@ -55,10 +55,10 @@ else:
 
 # Запишем дискретный вариационный ряд
 XiArray = []
-for i in range(8):
-    Xi = (XArray[i] + XArray[i+1]) / 2
+Xi_Array = []
+for i in range(9):
+    Xi = (XArray[i] + XArray[i+1]) / 2 
     XiArray.append(Xi)
-XiArray.append(0)
 XiArray.append(0)
 for i in range(8):
     if i == 8:
@@ -68,15 +68,15 @@ for i in range(8):
 # Изобразим вариационные ряды графически
 plt.xlabel('Интервалы')
 plt.ylabel('h')
-plt.title('Заголовок')
+plt.title('Вариационный ряд')
 plt.grid(True)
-plt.bar(XArray, NArray, h - 0.001)
-plt.plot(XArray, NArray, color="black")
+plt.bar(XArray[:-1], NArray[:-1], h - 0.001)
+plt.plot(XArray[:-1], NArray[:-1], color="black")
 plt.show()
 
 # Построим кумуляту
 WArray = []
-wArray = []
+wArray = [0]
 
 for i in range(len(XiArray)):
     wArray.append(NArray[i]/n)
@@ -89,5 +89,32 @@ plt.title('Кумулятивная кривая')
 plt.xlabel('Варианты')
 plt.ylabel('Накопительные частоты')
 plt.grid()
-plt.plot(XArray, WArray, color="red")
+#plt.plot(XArray[:-1], WArray[:-1], color="red")
+#plt.show()
+
+# Найдем эмпирическую функцию
+EmpArray = []
+Nx = 0
+for i in range(len(XArray)):
+    EmpArray.append(Nx / n)
+    Nx += NArray[i] 
+
+plt.title('Кумулята и эмперическая функция распределения')
+plt.xlabel('Варианты')
+plt.ylabel('Частоты')
+plt.bar(XiArray[:-1],EmpArray[:-1], h-0.01)
+plt.plot(XiArray[:-1], WArray[:-1], color = "red")
 plt.show()
+
+# Вычислить моду, медиану, выборочную среднюю, выборочную
+# дисперсию, выборочное среднее квадратическое отклонение, коэффициент вариации, асимметрию, эксцесс.
+Nmax = max(NArray)
+UiArray = []
+for i in range(len(XiArray)):
+    if Nmax == NArray[i]:
+        MoX = XiArray[i-1]
+        MeX = (MoX + XiArray[i])/2
+for i in range(len(XiArray)-1):
+    UiArray.append((XiArray[i]-MoX)/h)
+
+
