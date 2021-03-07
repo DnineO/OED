@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import math
 
 # Даны значения ширины пера круглой плашки(в мм)
 AArray = [3.69, 3.56, 3.52, 3.68, 3.49, 3.58, 3.59, 3.54, 3.35, 3.69, 3.87, 3.67, 3.79,
@@ -14,6 +15,7 @@ print("Xmax = ", Xmax)
 print("Xmin = ", Xmin)
 print("R = ", R)
 n = len(AArray)
+print("n = ",n)
 
 # Определим число интервалов k
 k = len(AArray) ** 0.5
@@ -117,4 +119,50 @@ for i in range(len(XiArray)):
 for i in range(len(XiArray)-1):
     UiArray.append((XiArray[i]-MoX)/h)
 
+# Найдем условные начальные моменты
+M1 = 0
+M2 = 0
+M3 = 0
+M4 = 0
 
+for i in range(len(UiArray)):
+    M1 += (NArray[i] * UiArray[i])
+    M2 += (NArray[i] * UiArray[i]) ** 2
+    M3 += (NArray[i] * UiArray[i]) ** 3
+    M4 += (NArray[i] * UiArray[i]) ** 4
+# print(M1,M2,M3,M4)
+
+M1 /= n
+M2 /= n
+M3 /= n
+M4 /= n
+# print(M1,M2,M3,M4)
+
+# Найдем выборочную среднюю
+AverX = M1 * h + MoX
+# Найдем выборочную дисперсию
+Dispertion = (M2 - M1**2) * h**2
+# Вычислим выборочное средне квадратичное отклонение
+AverDeviation = math.sqrt(Dispertion)
+# Вычислим коэффициент вариации
+VariationCoef = AverDeviation / AverX
+# Найдем центральные моменты третьего и четвертого порядков
+m3 = (M3 - 3 * M2 * M1 + 2 * M1 ** 3) * h ** 3
+m4 = (M4 - 4 * M3 * M1 + 6 * M2 * M1 ** 2 - 3 * M1 ** 4) * h ** 4
+# Найдем ассиметрию и эксцесс
+As = m3 / AverDeviation ** 3
+Ex = m4 / AverDeviation ** 4 - 3
+
+# Построим доверительные интервалы для истинного значения измеряемой величины и
+# среднего квадратического отклонения генеральной совокупности.
+t = 2.009  # y = 0.95 по таблице Лапласа
+buf = AverDeviation / math.sqrt(n) * t
+# Доверительный интервал:
+min1 = AverX - buf
+max1 = AverX + buf
+q = 0.21 # y = 0.95 по таблице Лапласа
+min2 = AverDeviation * (1 - q)
+max2 = AverDeviation * (1 + q)
+
+print(f"{round(min1, 2)} < a < {round(max1, 2)}")
+print(f"{round(min2, 2)} < S < {round(max2, 2)}")
