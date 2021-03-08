@@ -131,7 +131,6 @@ for i in range(len(UiArray)):
     M3 += (NArray[i] * UiArray[i]) ** 3
     M4 += (NArray[i] * UiArray[i]) ** 4
 # print(M1,M2,M3,M4)
-
 M1 /= n
 M2 /= n
 M3 /= n
@@ -160,7 +159,7 @@ buf = AverDeviation / math.sqrt(n) * t
 # Доверительный интервал:
 min1 = AverX - buf
 max1 = AverX + buf
-q = 0.21 # y = 0.95 по таблице Лапласа
+q = 0.21  # y = 0.95 по таблице Лапласа
 min2 = AverDeviation * (1 - q)
 max2 = AverDeviation * (1 + q)
 
