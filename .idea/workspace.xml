@@ -18,9 +18,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GIT\OED\lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lab2">
     <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,8 +47,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lab2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OED" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/lab2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lab2" />
         <item itemvalue="Python.lab1" />
       </list>
     </recent_temporary>
@@ -62,25 +89,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1615100415726">
+    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1615283741470">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1615100415726" />
-    <state width="751" height="189" key="GridCell.Tab.0.bottom" timestamp="1615017180504">
+    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1615283741470" />
+    <state width="743" height="189" key="GridCell.Tab.0.bottom" timestamp="1615535288743">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="751" height="189" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1615017180504" />
-    <state width="751" height="189" key="GridCell.Tab.0.center" timestamp="1615017180504">
+    <state width="743" height="189" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1615535288743" />
+    <state width="743" height="189" key="GridCell.Tab.0.center" timestamp="1615535288743">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="751" height="189" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1615017180504" />
-    <state width="751" height="189" key="GridCell.Tab.0.left" timestamp="1615017180504">
+    <state width="743" height="189" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1615535288743" />
+    <state width="743" height="189" key="GridCell.Tab.0.left" timestamp="1615535288742">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="751" height="189" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1615017180504" />
-    <state width="751" height="189" key="GridCell.Tab.0.right" timestamp="1615017180504">
+    <state width="743" height="189" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1615535288742" />
+    <state width="743" height="189" key="GridCell.Tab.0.right" timestamp="1615535288743">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="751" height="189" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1615017180504" />
+    <state width="743" height="189" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1615535288743" />
+    <state x="53" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1615517075883">
+      <screen x="0" y="0" width="1298" height="768" />
+    </state>
+    <state x="53" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1298.768@0.0.1298.768" timestamp="1615517075883" />
   </component>
 </project>
