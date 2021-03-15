@@ -209,7 +209,7 @@ if Sas < As and Sex < Ex:
     print("Выборочная совокупность не будет распределена по нормальному закону")
 print(round(Sas,3),"<",round(As,3),"|",round(Sex,3),"<",round(Ex,3))
 
-plt.title('Вариационный ряд')
+plt.title('Эмпирическая и теоретическая кривая распределения')
 plt.xlabel('Варианты')
 plt.ylabel('Частоты')
 plt.plot(XArray[:-1], NArray[:-1], color="black")
