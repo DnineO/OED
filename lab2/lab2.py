@@ -171,18 +171,18 @@ max2 = AverDeviation * (1 + q)
 
 # рассчитаем теоретические частоты
 NDotArray = []
-PhiArray = [0.3251, 0.3778, 0.3932, 0.3989, 0.3945, 0.3802, 0.3555, 0.3251, 0.2874, 0.2492]
+# PhiArray = [0.3251, 0.3778, 0.3932, 0.3989, 0.3945, 0.3802, 0.3555, 0.3251, 0.2874, 0.2492]
 
 for i in range(len(XArray)):
-    prom = (XArray[i] - AverX) / AverDeviation
-    phi = round((1 / math.sqrt(2 * math.pi)) * math.exp(-1 * prom ** 2 / 2),4)
+    ui = (XArray[i] - AverX) / AverDeviation
+    phi = round((1 / math.sqrt(2 * math.pi)) * math.exp(-1 * ui ** 2 / 2), 4)
     yi = ((n * h) / AverDeviation) * phi
-    NDotArray.append(round(yi,0))
-    print(round(prom,3),NDotArray[i], round(yi,4), phi)
+    NDotArray.append(round(yi, 0))
+    print(f"ui = {round(ui, 2)}, n'i = {NDotArray[i]}, {round(yi, 4)}, phi = {phi}")
 print("S = ", AverDeviation)
 
 x_2 = 0
-for i in range(len(PhiArray)):
+for i in range(len(NDotArray)):
     x_2 += (NArray[i] - NDotArray[i]) ** 2 / NDotArray[i]
 # print("X^2 = ", x_2)
 
@@ -213,5 +213,5 @@ plt.title('Вариационный ряд')
 plt.xlabel('Варианты')
 plt.ylabel('Частоты')
 plt.plot(XArray[:-1], NArray[:-1], color="black")
-plt.plot(XArray[:-1], NDotArray[:-1])
+plt.plot(XArray[:-1], NDotArray[:-1], linestyle=':')
 plt.show()
