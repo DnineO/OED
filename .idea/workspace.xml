@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,26 +118,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1615283741470">
+    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1616123522242">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1615283741470" />
-    <state width="708" height="254" key="GridCell.Tab.0.bottom" timestamp="1615809719466">
+    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1616123522242" />
+    <state width="625" height="256" key="GridCell.Tab.0.bottom" timestamp="1616410458472">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="708" height="254" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1615809719466" />
-    <state width="708" height="254" key="GridCell.Tab.0.center" timestamp="1615809719466">
+    <state width="625" height="256" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
+    <state width="625" height="256" key="GridCell.Tab.0.center" timestamp="1616410458472">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="708" height="254" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1615809719466" />
-    <state width="708" height="254" key="GridCell.Tab.0.left" timestamp="1615809719466">
+    <state width="625" height="256" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
+    <state width="625" height="256" key="GridCell.Tab.0.left" timestamp="1616410458472">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="708" height="254" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1615809719466" />
-    <state width="708" height="254" key="GridCell.Tab.0.right" timestamp="1615809719466">
+    <state width="625" height="256" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
+    <state width="625" height="256" key="GridCell.Tab.0.right" timestamp="1616410458472">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
-    <state width="708" height="254" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1615809719466" />
+    <state width="625" height="256" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
     <state x="53" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1615517075883">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
