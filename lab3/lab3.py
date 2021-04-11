@@ -4,8 +4,10 @@ import math
 # Данные о производительности труда Y(м) на одного чел/час
 # и стаже рабочих X(в годах)
 
-x_arr = [1, 2, 3, 4, 5, 6, 7, 8]
-y_arr = [9.8, 15, 16, 19, 20, 22, 23, 27]
+# x_arr = [1, 2, 3, 4, 5, 6, 7, 8]
+# y_arr = [9.8, 15, 16, 19, 20, 22, 23, 27]
+x_arr = [1, 1.2, 1.4, 1.6, 1.8, 2]
+y_arr = [15, 16, 17, 18, 19, 20]
 
 # Построим корреляционное поле. Выберем общий вид регрессии
 # plt.plot(XArray, YArray, linestyle=':')
@@ -99,7 +101,7 @@ print("Sa1 / |a1| = ", Sa1 / math.fabs(y_reg.imag))
 print("Sa0 / |a0| = ", Sa0 / math.fabs(y_reg.real))
 
 # Построим уравнение регрессии
-plt.plot(x_arr, y_arr, color="gray", label="Результаты наблюдений")
+plt.plot(x_arr, y_arr, 'ro' , color="gray", label="Результаты наблюдений")
 plt.plot(x_arr, yx_arr, color="blue", label="Линейная регрессия x на y")
 plt.plot(xy_arr, y_arr, color="red", label="Линейная регрессия y на x")
 plt.xlabel('X')
