@@ -170,12 +170,12 @@ for i in range(len(nx_arr)):
 tab30down = np.empty((len(x_arr), len(ny_arr)), dtype = "float64")
 for i in range(len(ny_arr)):
     for j in range(len(nx_arr)):
-        if table30up[i,j] != 0:
-            tab30down[i,j] = vj[i] * ui[j]
-tab30right = np.empty((len(x_arr)), dtype = "float64")
+        if table30up[i, j] != 0:
+            tab30down[i, j] = vj[i] * ui[j]
+tab30right = np.empty((len(x_arr)), dtype="float64")
 for i in range(len(ny_arr)):
     for j in range(len(nx_arr)):
-        tab30right[i] += table30up[i,j] * tab30down[i,j]
+        tab30right[i] += table30up[i, j] * tab30down[i, j]
 
 tableSum = np.sum(tab30right)
 # print(tableSum)

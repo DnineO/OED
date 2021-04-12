@@ -1,0 +1,10 @@
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\bin\Debug\OED_Lab3_v1.exe.config
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\bin\Debug\OED_Lab3_v1.exe
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\bin\Debug\OED_Lab3_v1.pdb
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.csprojAssemblyReference.cache
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.Form1.resources
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.Properties.Resources.resources
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.csproj.GenerateResource.cache
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.csproj.CoreCompileInputs.cache
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.exe
+F:\VS2017_Projects\2017ENTERPRISE\OED_Lab3_v1\OED_Lab3_v1\obj\Debug\OED_Lab3_v1.pdb
