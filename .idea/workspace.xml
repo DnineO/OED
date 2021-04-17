@@ -33,7 +33,7 @@
       <recent name="G:\GIT\OED\lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lab4">
+  <component name="RunManager" selected="Python.lab4.1">
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threadsUrl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lab4.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadsUrl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lab4.1" />
         <item itemvalue="Python.lab4" />
         <item itemvalue="Python.lab3" />
         <item itemvalue="Python.index" />
         <item itemvalue="Python.threadsUrl" />
-        <item itemvalue="Python.threadsUrl (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,25 +172,25 @@
     </state>
     <state x="174" y="139" key="FileChooserDialogImpl/0.0.1297.768@0.0.1297.768" timestamp="1618143896119" />
     <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1616551826292" />
-    <state width="652" height="184" key="GridCell.Tab.0.bottom" timestamp="1618235763569">
+    <state width="750" height="188" key="GridCell.Tab.0.bottom" timestamp="1618541527636">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="652" height="184" key="GridCell.Tab.0.bottom/0.0.1297.768@0.0.1297.768" timestamp="1618235763569" />
+    <state width="750" height="188" key="GridCell.Tab.0.bottom/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
     <state width="625" height="256" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
-    <state width="652" height="184" key="GridCell.Tab.0.center" timestamp="1618235763569">
+    <state width="750" height="188" key="GridCell.Tab.0.center" timestamp="1618541527636">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="652" height="184" key="GridCell.Tab.0.center/0.0.1297.768@0.0.1297.768" timestamp="1618235763569" />
+    <state width="750" height="188" key="GridCell.Tab.0.center/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
     <state width="625" height="256" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
-    <state width="652" height="184" key="GridCell.Tab.0.left" timestamp="1618235763569">
+    <state width="750" height="188" key="GridCell.Tab.0.left" timestamp="1618541527636">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="652" height="184" key="GridCell.Tab.0.left/0.0.1297.768@0.0.1297.768" timestamp="1618235763569" />
+    <state width="750" height="188" key="GridCell.Tab.0.left/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
     <state width="625" height="256" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
-    <state width="652" height="184" key="GridCell.Tab.0.right" timestamp="1618235763569">
+    <state width="750" height="188" key="GridCell.Tab.0.right" timestamp="1618541527636">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="652" height="184" key="GridCell.Tab.0.right/0.0.1297.768@0.0.1297.768" timestamp="1618235763569" />
+    <state width="750" height="188" key="GridCell.Tab.0.right/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
     <state width="625" height="256" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1616410458472" />
     <state width="624" height="238" key="GridCell.Tab.1.bottom" timestamp="1618225387298">
       <screen x="0" y="0" width="1297" height="768" />
