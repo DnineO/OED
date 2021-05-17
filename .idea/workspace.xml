@@ -25,39 +25,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProcessCalculus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GIT\OED\lab9" />
+      <recent name="G:\GIT\OED\lab8" />
+      <recent name="G:\GIT\OED" />
       <recent name="G:\GIT\OED\lab6" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\GIT\OED\lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lab5">
-    <configuration name="lab3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OED" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/lab3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.lab6">
     <configuration name="lab4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threadsUrl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lab6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +111,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="G:\GIT\OED\threadsUrl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab6/lab6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="p2pChatUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OED" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="G:\GIT\OED\p2pChatUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lab5" />
+        <item itemvalue="Python.lab6" />
         <item itemvalue="Python.lab4.1" />
+        <item itemvalue="Python.p2pChatUI" />
+        <item itemvalue="Python.lab5" />
         <item itemvalue="Python.lab4" />
-        <item itemvalue="Python.lab3" />
-        <item itemvalue="Python.threadsUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -170,51 +173,51 @@
       <screen x="0" y="0" width="1297" height="768" />
     </state>
     <state x="13" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1297.768@0.0.1297.768" timestamp="1618139918330" />
-    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1618143896119">
-      <screen x="0" y="0" width="1297" height="768" />
+    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1618916791282">
+      <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state x="174" y="139" key="FileChooserDialogImpl/0.0.1297.768@0.0.1297.768" timestamp="1618143896119" />
-    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1616551826292" />
-    <state width="1277" height="190" key="GridCell.Tab.0.bottom" timestamp="1618826505594">
+    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1618916791282" />
+    <state width="716" height="136" key="GridCell.Tab.0.bottom" timestamp="1621252862407">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="750" height="188" key="GridCell.Tab.0.bottom/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
-    <state width="1277" height="190" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1618826505594" />
-    <state width="1277" height="190" key="GridCell.Tab.0.center" timestamp="1618826505594">
+    <state width="716" height="136" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
+    <state width="716" height="136" key="GridCell.Tab.0.center" timestamp="1621252862407">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="750" height="188" key="GridCell.Tab.0.center/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
-    <state width="1277" height="190" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1618826505594" />
-    <state width="1277" height="190" key="GridCell.Tab.0.left" timestamp="1618826505594">
+    <state width="716" height="136" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
+    <state width="716" height="136" key="GridCell.Tab.0.left" timestamp="1621252862407">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="750" height="188" key="GridCell.Tab.0.left/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
-    <state width="1277" height="190" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1618826505594" />
-    <state width="1277" height="190" key="GridCell.Tab.0.right" timestamp="1618826505594">
+    <state width="716" height="136" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
+    <state width="716" height="136" key="GridCell.Tab.0.right" timestamp="1621252862407">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="750" height="188" key="GridCell.Tab.0.right/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
-    <state width="1277" height="190" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1618826505594" />
-    <state width="1277" height="238" key="GridCell.Tab.1.bottom" timestamp="1618825597292">
+    <state width="716" height="136" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
+    <state width="1277" height="238" key="GridCell.Tab.1.bottom" timestamp="1618832911726">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="624" height="238" key="GridCell.Tab.1.bottom/0.0.1297.768@0.0.1297.768" timestamp="1618225387298" />
-    <state width="1277" height="238" key="GridCell.Tab.1.bottom/0.0.1298.768@0.0.1298.768" timestamp="1618825597292" />
-    <state width="1277" height="238" key="GridCell.Tab.1.center" timestamp="1618825597291">
+    <state width="1277" height="238" key="GridCell.Tab.1.bottom/0.0.1298.768@0.0.1298.768" timestamp="1618832911726" />
+    <state width="1277" height="238" key="GridCell.Tab.1.center" timestamp="1618832911726">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="624" height="238" key="GridCell.Tab.1.center/0.0.1297.768@0.0.1297.768" timestamp="1618225387298" />
-    <state width="1277" height="238" key="GridCell.Tab.1.center/0.0.1298.768@0.0.1298.768" timestamp="1618825597291" />
-    <state width="1277" height="238" key="GridCell.Tab.1.left" timestamp="1618825597291">
+    <state width="1277" height="238" key="GridCell.Tab.1.center/0.0.1298.768@0.0.1298.768" timestamp="1618832911726" />
+    <state width="1277" height="238" key="GridCell.Tab.1.left" timestamp="1618832911726">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="624" height="238" key="GridCell.Tab.1.left/0.0.1297.768@0.0.1297.768" timestamp="1618225387298" />
-    <state width="1277" height="238" key="GridCell.Tab.1.left/0.0.1298.768@0.0.1298.768" timestamp="1618825597291" />
-    <state width="1277" height="238" key="GridCell.Tab.1.right" timestamp="1618825597291">
+    <state width="1277" height="238" key="GridCell.Tab.1.left/0.0.1298.768@0.0.1298.768" timestamp="1618832911726" />
+    <state width="1277" height="238" key="GridCell.Tab.1.right" timestamp="1618832911726">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state width="624" height="238" key="GridCell.Tab.1.right/0.0.1297.768@0.0.1297.768" timestamp="1618225387298" />
-    <state width="1277" height="238" key="GridCell.Tab.1.right/0.0.1298.768@0.0.1298.768" timestamp="1618825597291" />
+    <state width="1277" height="238" key="GridCell.Tab.1.right/0.0.1298.768@0.0.1298.768" timestamp="1618832911726" />
     <state x="60" y="29" key="SettingsEditor" timestamp="1618139668085">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
