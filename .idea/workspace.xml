@@ -40,27 +40,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.lab6">
-    <configuration name="lab4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OED" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/lab4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="lab4.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +103,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lab7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OED" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab7/lab7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="p2pChatUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.lab6" />
+        <item itemvalue="Python.lab7" />
         <item itemvalue="Python.lab4.1" />
         <item itemvalue="Python.p2pChatUI" />
         <item itemvalue="Python.lab5" />
-        <item itemvalue="Python.lab4" />
       </list>
     </recent_temporary>
   </component>
@@ -173,30 +173,30 @@
       <screen x="0" y="0" width="1297" height="768" />
     </state>
     <state x="13" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1297.768@0.0.1297.768" timestamp="1618139918330" />
-    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1618916791282">
+    <state x="174" y="139" key="FileChooserDialogImpl" timestamp="1621252988384">
       <screen x="0" y="0" width="1298" height="768" />
     </state>
     <state x="174" y="139" key="FileChooserDialogImpl/0.0.1297.768@0.0.1297.768" timestamp="1618143896119" />
-    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1618916791282" />
-    <state width="716" height="136" key="GridCell.Tab.0.bottom" timestamp="1621252862407">
-      <screen x="0" y="0" width="1298" height="768" />
+    <state x="174" y="139" key="FileChooserDialogImpl/0.0.1298.768@0.0.1298.768" timestamp="1621252988384" />
+    <state width="1276" height="134" key="GridCell.Tab.0.bottom" timestamp="1621848085629">
+      <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="750" height="188" key="GridCell.Tab.0.bottom/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
+    <state width="1276" height="134" key="GridCell.Tab.0.bottom/0.0.1297.768@0.0.1297.768" timestamp="1621848085629" />
     <state width="716" height="136" key="GridCell.Tab.0.bottom/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
-    <state width="716" height="136" key="GridCell.Tab.0.center" timestamp="1621252862407">
-      <screen x="0" y="0" width="1298" height="768" />
+    <state width="1276" height="134" key="GridCell.Tab.0.center" timestamp="1621848085629">
+      <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="750" height="188" key="GridCell.Tab.0.center/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
+    <state width="1276" height="134" key="GridCell.Tab.0.center/0.0.1297.768@0.0.1297.768" timestamp="1621848085629" />
     <state width="716" height="136" key="GridCell.Tab.0.center/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
-    <state width="716" height="136" key="GridCell.Tab.0.left" timestamp="1621252862407">
-      <screen x="0" y="0" width="1298" height="768" />
+    <state width="1276" height="134" key="GridCell.Tab.0.left" timestamp="1621848085628">
+      <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="750" height="188" key="GridCell.Tab.0.left/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
+    <state width="1276" height="134" key="GridCell.Tab.0.left/0.0.1297.768@0.0.1297.768" timestamp="1621848085628" />
     <state width="716" height="136" key="GridCell.Tab.0.left/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
-    <state width="716" height="136" key="GridCell.Tab.0.right" timestamp="1621252862407">
-      <screen x="0" y="0" width="1298" height="768" />
+    <state width="1276" height="134" key="GridCell.Tab.0.right" timestamp="1621848085629">
+      <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state width="750" height="188" key="GridCell.Tab.0.right/0.0.1297.768@0.0.1297.768" timestamp="1618541527636" />
+    <state width="1276" height="134" key="GridCell.Tab.0.right/0.0.1297.768@0.0.1297.768" timestamp="1621848085629" />
     <state width="716" height="136" key="GridCell.Tab.0.right/0.0.1298.768@0.0.1298.768" timestamp="1621252862407" />
     <state width="1277" height="238" key="GridCell.Tab.1.bottom" timestamp="1618832911726">
       <screen x="0" y="0" width="1298" height="768" />
@@ -218,10 +218,10 @@
     </state>
     <state width="624" height="238" key="GridCell.Tab.1.right/0.0.1297.768@0.0.1297.768" timestamp="1618225387298" />
     <state width="1277" height="238" key="GridCell.Tab.1.right/0.0.1298.768@0.0.1298.768" timestamp="1618832911726" />
-    <state x="60" y="29" key="SettingsEditor" timestamp="1618139668085">
+    <state x="278" y="58" key="SettingsEditor" timestamp="1621847666816">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
-    <state x="60" y="29" key="SettingsEditor/0.0.1297.768@0.0.1297.768" timestamp="1618139668085" />
+    <state x="278" y="58" key="SettingsEditor/0.0.1297.768@0.0.1297.768" timestamp="1621847666816" />
     <state x="737" y="208" width="564" height="438" key="dock-window-1" timestamp="1618225387351">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
